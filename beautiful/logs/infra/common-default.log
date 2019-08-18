@@ -1,0 +1,5 @@
+2019-08-15 22:57:07,270 INFO  main                             - SOFABoot Infrastructure Starting!
+2019-08-15 23:01:33,441 INFO  main                             - SOFABoot Infrastructure Starting!
+2019-08-15 23:02:49,448 INFO  http-nio-8080-exec-10            - Loading properties file from URL [jar:file:/D:/LearningClass/Web/Maven/repository/com/alipay/sofa/healthcheck-sofa-boot-starter/3.1.5/healthcheck-sofa-boot-starter-3.1.5.jar!/META-INF/sofa.versions.properties]
+2019-08-15 23:02:49,450 INFO  http-nio-8080-exec-10            - Loading properties file from URL [jar:file:/D:/LearningClass/Web/Maven/repository/com/alipay/sofa/infra-sofa-boot-starter/3.1.5/infra-sofa-boot-starter-3.1.5.jar!/META-INF/sofa.versions.properties]
+2019-08-15 23:05:10,287 INFO  main                             - SOFABoot Infrastructure Starting!

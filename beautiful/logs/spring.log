@@ -1,0 +1,78 @@
+2019-08-15 22:57:07.334  INFO 8140 --- [main] com.liuchuang.ApiApplication             : Starting ApiApplication on DESKTOP-RP1ADU5 with PID 8140 (F:\GithubCode\distance\beautiful\beautiful-api\target\classes started by LiuChuang in F:\GithubCode\distance\beautiful)
+2019-08-15 22:57:07.336  INFO 8140 --- [main] com.liuchuang.ApiApplication             : No active profile set, falling back to default profiles: default
+2019-08-15 22:57:08.712  INFO 8140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-15 22:57:08.728  INFO 8140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 22:57:08.744  INFO 8140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-15 22:57:08.744  INFO 8140 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-08-15 22:57:08.744  INFO 8140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-08-15 22:57:08.744  INFO 8140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-08-15 22:57:09.831  INFO 8140 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-08-15 22:57:09.962  INFO 8140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 22:57:09.962  INFO 8140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2558 ms
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-08-15 22:57:10.294  INFO 8140 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-08-15 22:57:10.548  INFO 8140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 22:57:10.818  INFO 8140 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2019-08-15 22:57:10.918  INFO 8140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-15 22:57:10.918  INFO 8140 --- [main] com.liuchuang.ApiApplication             : Started ApiApplication in 4.663 seconds (JVM running for 6.917)
+2019-08-15 22:57:11.930  INFO 8140 --- [RMI TCP Connection(2)-169.254.196.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-15 22:57:11.930  INFO 8140 --- [RMI TCP Connection(2)-169.254.196.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-15 22:57:11.946  INFO 8140 --- [RMI TCP Connection(2)-169.254.196.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-08-15 23:01:12.176  INFO 8140 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:01:33.514  INFO 10908 --- [main] com.liuchuang.ApiApplication             : Starting ApiApplication on DESKTOP-RP1ADU5 with PID 10908 (F:\GithubCode\distance\beautiful\beautiful-api\target\classes started by LiuChuang in F:\GithubCode\distance\beautiful)
+2019-08-15 23:01:33.517  INFO 10908 --- [main] com.liuchuang.ApiApplication             : No active profile set, falling back to default profiles: default
+2019-08-15 23:01:34.924  INFO 10908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-15 23:01:34.943  INFO 10908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 23:01:34.943  INFO 10908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-15 23:01:34.950  INFO 10908 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-08-15 23:01:34.951  INFO 10908 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-08-15 23:01:34.951  INFO 10908 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-08-15 23:01:36.021  INFO 10908 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-08-15 23:01:36.147  INFO 10908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 23:01:36.147  INFO 10908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2551 ms
+2019-08-15 23:01:36.483  INFO 10908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 23:01:36.484  INFO 10908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-08-15 23:01:36.484  INFO 10908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 23:01:36.484  INFO 10908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-08-15 23:01:36.484  INFO 10908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 23:01:36.484  INFO 10908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-08-15 23:01:36.484  INFO 10908 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-08-15 23:01:36.747  INFO 10908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:01:37.008  INFO 10908 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2019-08-15 23:01:37.094  INFO 10908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-15 23:01:37.098  INFO 10908 --- [main] com.liuchuang.ApiApplication             : Started ApiApplication in 4.516 seconds (JVM running for 6.561)
+2019-08-15 23:01:39.062  INFO 10908 --- [RMI TCP Connection(3)-169.254.196.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-15 23:01:39.063  INFO 10908 --- [RMI TCP Connection(3)-169.254.196.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-15 23:01:39.071  INFO 10908 --- [RMI TCP Connection(3)-169.254.196.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-08-15 23:04:59.147  INFO 10908 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:05:10.309  INFO 19464 --- [main] com.liuchuang.ApiApplication             : Starting ApiApplication on DESKTOP-RP1ADU5 with PID 19464 (F:\GithubCode\distance\beautiful\beautiful-api\target\classes started by LiuChuang in F:\GithubCode\distance\beautiful)
+2019-08-15 23:05:10.311  INFO 19464 --- [main] com.liuchuang.ApiApplication             : No active profile set, falling back to default profiles: default
+2019-08-15 23:05:11.761  INFO 19464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-15 23:05:11.785  INFO 19464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 23:05:11.786  INFO 19464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-15 23:05:11.795  INFO 19464 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-08-15 23:05:11.795  INFO 19464 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-08-15 23:05:11.795  INFO 19464 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-08-15 23:05:12.874  INFO 19464 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-08-15 23:05:13.006  INFO 19464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 23:05:13.006  INFO 19464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2624 ms
+2019-08-15 23:05:13.342  INFO 19464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 23:05:13.342  INFO 19464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-08-15 23:05:13.343  INFO 19464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 23:05:13.343  INFO 19464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-08-15 23:05:13.343  INFO 19464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 23:05:13.343  INFO 19464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-08-15 23:05:13.343  INFO 19464 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-08-15 23:05:13.617  INFO 19464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:05:13.894  INFO 19464 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2019-08-15 23:05:13.982  INFO 19464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-15 23:05:13.986  INFO 19464 --- [main] com.liuchuang.ApiApplication             : Started ApiApplication in 4.831 seconds (JVM running for 7.224)
+2019-08-15 23:05:14.877  INFO 19464 --- [RMI TCP Connection(2)-169.254.196.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-15 23:05:14.877  INFO 19464 --- [RMI TCP Connection(2)-169.254.196.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-15 23:05:14.889  INFO 19464 --- [RMI TCP Connection(2)-169.254.196.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-08-15 23:21:46.664  INFO 19464 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

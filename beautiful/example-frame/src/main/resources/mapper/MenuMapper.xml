@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liuchuang.mapper.MenuMapper.xml">
+    <select id="getRoleMenuByRoleId" parameterType="long" resultType="com.liuchuang.model.core.entity.Menu">
+        select * from  sys_menu a,sys_role_menu b where b.menuid = a.id and b.roleid = #{roleId}
+    </select>
+</mapper>

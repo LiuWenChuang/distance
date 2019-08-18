@@ -1,0 +1,53 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/beautiful?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true&verifyServerCertificate=false
+      password: root
+      username: root
+      driver-class-name: com.mysql.jdbc.Driver
+      #连接池配置 配置初始化大小、最小、最大
+      initial-size: 5
+      max-active: 20
+      min-idle: 1
+      #取连接等待超时的时间
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      #和上面的等价
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      #配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      #配置一个连接在池中最小生存的时间，单位是毫秒
+      min-evictable-idle-time-millis: 300000
+      #监控配置
+      # StatViewServlet配置，说明请参考Druid Wiki，配置_StatViewServlet配置
+      stat-view-servlet.enabled: true #是否启用StatViewServlet（监控页面）默认值为false（考虑到安全问题默认并未启动，如需启用建议设置密码或白名单以保障安全）
+      stat-view-servlet.url-pattern: /druid/*
+      filter:
+        slf4j:
+          connection-close-after-log-enabled: true
+          statement-create-after-log-enabled: false
+          statement-close-after-log-enabled: false
+          result-set-close-after-log-enabled: false
+          result-set-open-after-log-enabled: false
+        stat:
+          enabled: true
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: false
+        wall:
+          config:
+            multi-statement-allow: true
+      web-stat-filter:
+        enabled: true
+
+#      stat-view-servlet.login-username:
+#      stat-view-servlet.login-password:
+
+
+
+

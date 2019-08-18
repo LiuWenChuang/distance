@@ -1,0 +1,4 @@
+[2019-08-18 20:14:26] WARN  org.mybatis.logging.Logger 44 warn - No MyBatis mapper was found in '[com.liuchuang.mapper]' package. Please check your configuration.
+[2019-08-18 20:14:27] WARN  org.mybatis.logging.Logger 44 warn - No MyBatis mapper was found in '[com.liuchuang]' package. Please check your configuration.
+[2019-08-18 20:18:28] WARN  org.mybatis.logging.Logger 44 warn - No MyBatis mapper was found in '[com.liuchuang.mapper]' package. Please check your configuration.
+[2019-08-18 20:18:28] WARN  org.mybatis.logging.Logger 44 warn - No MyBatis mapper was found in '[com.liuchuang]' package. Please check your configuration.
