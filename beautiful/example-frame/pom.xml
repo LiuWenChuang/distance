@@ -17,7 +17,7 @@
         <mysql.connector.version>5.1.48</mysql.connector.version>
         <fastjson.version>1.2.59</fastjson.version>
         <pagehelper.starter.version>1.2.5</pagehelper.starter.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.5.0</shiro.version>
         <shiro-redis.version>3.1.0</shiro-redis.version>
     </properties>
 
